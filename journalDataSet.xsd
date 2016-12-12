@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="journalDataSet" targetNamespace="http://tempuri.org/journalDataSet.xsd" xmlns:mstns="http://tempuri.org/journalDataSet.xsd" xmlns="http://tempuri.org/journalDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="journalConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="journalConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.FinalJournal.My.MySettings.GlobalReference.Default.journalConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="authorTableAdapter" GeneratorDataComponentClassName="authorTableAdapter" Name="author" UserDataComponentName="authorTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="journalConnectionString (MySettings)" DbObjectName="journal.author" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `ORCID`, `F_Name`, `L_Name`, `University`, `Co_Author`, `E_Mail` FROM `author`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="journalTableAdapter" GeneratorDataComponentClassName="journalTableAdapter" Name="journal" UserDataComponentName="journalTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="journalConnectionString (MySettings)" DbObjectName="journal.journal" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `Name_Publisher`, `Name_Journal`, `Date_of_publishing`, `Access` FROM `journal`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="journal_articlesTableAdapter" GeneratorDataComponentClassName="journal_articlesTableAdapter" Name="journal_articles" UserDataComponentName="journal_articlesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="journalConnectionString (MySettings)" DbObjectName="journal.journal_articles" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `Name_Journal`, `Title`, `DOI`, `Citations` FROM `journal_articles`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="journal_citation_reportTableAdapter" GeneratorDataComponentClassName="journal_citation_reportTableAdapter" Name="journal_citation_report" UserDataComponentName="journal_citation_reportTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="journalConnectionString (MySettings)" DbObjectName="journal.journal_citation_report" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `ISSN`, `Journal_Impact_Factor`, `Citation_Index`, `Name_of_Journal` FROM `journal_citation_report`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="journals_ranked_jcrTableAdapter" GeneratorDataComponentClassName="journals_ranked_jcrTableAdapter" Name="journals_ranked_jcr" UserDataComponentName="journals_ranked_jcrTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="journalConnectionString (MySettings)" DbObjectName="journal.journals_ranked_jcr" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `Name_Journal`, `ISSN`, `Date`, `Access`, `Journal_Impact_Factor`, `Citation_Index` FROM `journals_ranked_jcr`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="publisherTableAdapter" GeneratorDataComponentClassName="publisherTableAdapter" Name="publisher" UserDataComponentName="publisherTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="journalConnectionString (MySettings)" DbObjectName="journal.publisher" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `Name`, `Country`, `No_of_Journals_Published` FROM `publisher`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="publisher_domainTableAdapter" GeneratorDataComponentClassName="publisher_domainTableAdapter" Name="publisher_domain" UserDataComponentName="publisher_domainTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="journalConnectionString (MySettings)" DbObjectName="journal.publisher_domain" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `Name_Publisher`, `Domain` FROM `publisher_domain`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="sponsor_addressTableAdapter" GeneratorDataComponentClassName="sponsor_addressTableAdapter" Name="sponsor_address" UserDataComponentName="sponsor_addressTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="journalConnectionString (MySettings)" DbObjectName="journal.sponsor_address" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `Name_Sponsor`, `Country` FROM `sponsor_address`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="sponsoredTableAdapter" GeneratorDataComponentClassName="sponsoredTableAdapter" Name="sponsored" UserDataComponentName="sponsoredTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="journalConnectionString (MySettings)" DbObjectName="journal.sponsored" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `Name_Journal`, `Name_Sponsor` FROM `sponsored`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="sponsorsTableAdapter" GeneratorDataComponentClassName="sponsorsTableAdapter" Name="sponsors" UserDataComponentName="sponsorsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="journalConnectionString (MySettings)" DbObjectName="journal.sponsors" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `Name`, `No_of_Sponsorships`, `Address`, `Money_Spent` FROM `sponsors`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="writesTableAdapter" GeneratorDataComponentClassName="writesTableAdapter" Name="writes" UserDataComponentName="writesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="journalConnectionString (MySettings)" DbObjectName="journal.writes" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `ORCID`, `DOI` FROM `writes`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="journalDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="journalDataSet" msprop:Generator_UserDSName="journalDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="author" msprop:Generator_TableClassName="authorDataTable" msprop:Generator_TableVarName="tableauthor" msprop:Generator_TablePropName="author" msprop:Generator_RowDeletingName="authorRowDeleting" msprop:Generator_RowChangingName="authorRowChanging" msprop:Generator_RowEvHandlerName="authorRowChangeEventHandler" msprop:Generator_RowDeletedName="authorRowDeleted" msprop:Generator_UserTableName="author" msprop:Generator_RowChangedName="authorRowChanged" msprop:Generator_RowEvArgName="authorRowChangeEvent" msprop:Generator_RowClassName="authorRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="journal" msprop:Generator_TableClassName="journalDataTable" msprop:Generator_TableVarName="tablejournal" msprop:Generator_TablePropName="journal" msprop:Generator_RowDeletingName="journalRowDeleting" msprop:Generator_RowChangingName="journalRowChanging" msprop:Generator_RowEvHandlerName="journalRowChangeEventHandler" msprop:Generator_RowDeletedName="journalRowDeleted" msprop:Generator_UserTableName="journal" msprop:Generator_RowChangedName="journalRowChanged" msprop:Generator_RowEvArgName="journalRowChangeEvent" msprop:Generator_RowClassName="journalRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="journal_articles" msprop:Generator_TableClassName="journal_articlesDataTable" msprop:Generator_TableVarName="tablejournal_articles" msprop:Generator_TablePropName="journal_articles" msprop:Generator_RowDeletingName="journal_articlesRowDeleting" msprop:Generator_RowChangingName="journal_articlesRowChanging" msprop:Generator_RowEvHandlerName="journal_articlesRowChangeEventHandler" msprop:Generator_RowDeletedName="journal_articlesRowDeleted" msprop:Generator_UserTableName="journal_articles" msprop:Generator_RowChangedName="journal_articlesRowChanged" msprop:Generator_RowEvArgName="journal_articlesRowChangeEvent" msprop:Generator_RowClassName="journal_articlesRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="journal_citation_report" msprop:Generator_TableClassName="journal_citation_reportDataTable" msprop:Generator_TableVarName="tablejournal_citation_report" msprop:Generator_TablePropName="journal_citation_report" msprop:Generator_RowDeletingName="journal_citation_reportRowDeleting" msprop:Generator_RowChangingName="journal_citation_reportRowChanging" msprop:Generator_RowEvHandlerName="journal_citation_reportRowChangeEventHandler" msprop:Generator_RowDeletedName="journal_citation_reportRowDeleted" msprop:Generator_UserTableName="journal_citation_report" msprop:Generator_RowChangedName="journal_citation_reportRowChanged" msprop:Generator_RowEvArgName="journal_citation_reportRowChangeEvent" msprop:Generator_RowClassName="journal_citation_reportRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="journals_ranked_jcr" msprop:Generator_TableClassName="journals_ranked_jcrDataTable" msprop:Generator_TableVarName="tablejournals_ranked_jcr" msprop:Generator_TablePropName="journals_ranked_jcr" msprop:Generator_RowDeletingName="journals_ranked_jcrRowDeleting" msprop:Generator_RowChangingName="journals_ranked_jcrRowChanging" msprop:Generator_RowEvHandlerName="journals_ranked_jcrRowChangeEventHandler" msprop:Generator_RowDeletedName="journals_ranked_jcrRowDeleted" msprop:Generator_UserTableName="journals_ranked_jcr" msprop:Generator_RowChangedName="journals_ranked_jcrRowChanged" msprop:Generator_RowEvArgName="journals_ranked_jcrRowChangeEvent" msprop:Generator_RowClassName="journals_ranked_jcrRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="publisher" msprop:Generator_TableClassName="publisherDataTable" msprop:Generator_TableVarName="tablepublisher" msprop:Generator_TablePropName="publisher" msprop:Generator_RowDeletingName="publisherRowDeleting" msprop:Generator_RowChangingName="publisherRowChanging" msprop:Generator_RowEvHandlerName="publisherRowChangeEventHandler" msprop:Generator_RowDeletedName="publisherRowDeleted" msprop:Generator_UserTableName="publisher" msprop:Generator_RowChangedName="publisherRowChanged" msprop:Generator_RowEvArgName="publisherRowChangeEvent" msprop:Generator_RowClassName="publisherRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="publisher_domain" msprop:Generator_TableClassName="publisher_domainDataTable" msprop:Generator_TableVarName="tablepublisher_domain" msprop:Generator_TablePropName="publisher_domain" msprop:Generator_RowDeletingName="publisher_domainRowDeleting" msprop:Generator_RowChangingName="publisher_domainRowChanging" msprop:Generator_RowEvHandlerName="publisher_domainRowChangeEventHandler" msprop:Generator_RowDeletedName="publisher_domainRowDeleted" msprop:Generator_UserTableName="publisher_domain" msprop:Generator_RowChangedName="publisher_domainRowChanged" msprop:Generator_RowEvArgName="publisher_domainRowChangeEvent" msprop:Generator_RowClassName="publisher_domainRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="sponsor_address" msprop:Generator_TableClassName="sponsor_addressDataTable" msprop:Generator_TableVarName="tablesponsor_address" msprop:Generator_TablePropName="sponsor_address" msprop:Generator_RowDeletingName="sponsor_addressRowDeleting" msprop:Generator_RowChangingName="sponsor_addressRowChanging" msprop:Generator_RowEvHandlerName="sponsor_addressRowChangeEventHandler" msprop:Generator_RowDeletedName="sponsor_addressRowDeleted" msprop:Generator_UserTableName="sponsor_address" msprop:Generator_RowChangedName="sponsor_addressRowChanged" msprop:Generator_RowEvArgName="sponsor_addressRowChangeEvent" msprop:Generator_RowClassName="sponsor_addressRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="sponsored" msprop:Generator_TableClassName="sponsoredDataTable" msprop:Generator_TableVarName="tablesponsored" msprop:Generator_TablePropName="sponsored" msprop:Generator_RowDeletingName="sponsoredRowDeleting" msprop:Generator_RowChangingName="sponsoredRowChanging" msprop:Generator_RowEvHandlerName="sponsoredRowChangeEventHandler" msprop:Generator_RowDeletedName="sponsoredRowDeleted" msprop:Generator_UserTableName="sponsored" msprop:Generator_RowChangedName="sponsoredRowChanged" msprop:Generator_RowEvArgName="sponsoredRowChangeEvent" msprop:Generator_RowClassName="sponsoredRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="sponsors" msprop:Generator_TableClassName="sponsorsDataTable" msprop:Generator_TableVarName="tablesponsors" msprop:Generator_TablePropName="sponsors" msprop:Generator_RowDeletingName="sponsorsRowDeleting" msprop:Generator_RowChangingName="sponsorsRowChanging" msprop:Generator_RowEvHandlerName="sponsorsRowChangeEventHandler" msprop:Generator_RowDeletedName="sponsorsRowDeleted" msprop:Generator_UserTableName="sponsors" msprop:Generator_RowChangedName="sponsorsRowChanged" msprop:Generator_RowEvArgName="sponsorsRowChangeEvent" msprop:Generator_RowClassName="sponsorsRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="writes" msprop:Generator_TableClassName="writesDataTable" msprop:Generator_TableVarName="tablewrites" msprop:Generator_TablePropName="writes" msprop:Generator_RowDeletingName="writesRowDeleting" msprop:Generator_RowChangingName="writesRowChanging" msprop:Generator_RowEvHandlerName="writesRowChangeEventHandler" msprop:Generator_RowDeletedName="writesRowDeleted" msprop:Generator_UserTableName="writes" msprop:Generator_RowChangedName="writesRowChanged" msprop:Generator_RowEvArgName="writesRowChangeEvent" msprop:Generator_RowClassName="writesRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
