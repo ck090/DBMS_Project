@@ -1,2 +1,3 @@
 # DBMS_Project
-A Database Management Project on "Journal Information Management Information System"
+
+### To make this Working you need to Group all the files and make a folder 
