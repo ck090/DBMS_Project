@@ -6,4 +6,9 @@
 
 1. First go to Branch and Click on Add-File and Download the entire code from there
 
-2. Take all the files after downloading, except the FinalJounral.sln and FinalJournal.suo and create aand put in the folder FinalJounal thats it then RUN FinalJournal.sln 
+<img width="307" alt="screen shot 2016-12-12 at 12 32 40 pm" src="https://cloud.githubusercontent.com/assets/12717969/21090633/21138748-c067-11e6-85d4-e9bcda058fae.png">
+
+
+2. Take all the files after downloading, except the "FinalJounral.sln" and "FinalJournal.suo" and the Folders, create and put the files in a new folder named "FinalJounal"
+
+3. Then RUN FinalJournal.sln 
