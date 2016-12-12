@@ -1,0 +1,788 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FinalJournal
+</name>
+</assembly>
+<members>
+<member name="T:FinalJournal.journalDataSet.authorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.journalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.journal_articlesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.journal_citation_reportDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.journals_ranked_jcrDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.publisherDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.publisher_domainDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.sponsor_addressDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.sponsoredDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.sponsorsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.writesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.authorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.journalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.journal_articlesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.journal_citation_reportRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.journals_ranked_jcrRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.publisherRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.publisher_domainRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.sponsor_addressRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.sponsoredRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.sponsorsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.writesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.authorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.journalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.journal_articlesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.journal_citation_reportRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.journals_ranked_jcrRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.publisherRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.publisher_domainRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.sponsor_addressRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.sponsoredRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.sponsorsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.journalDataSet.writesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.journalDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:FinalJournal.journalDataSetTableAdapters.authorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FinalJournal.journalDataSetTableAdapters.journalTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FinalJournal.journalDataSetTableAdapters.journal_articlesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FinalJournal.journalDataSetTableAdapters.journal_citation_reportTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FinalJournal.journalDataSetTableAdapters.journals_ranked_jcrTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FinalJournal.journalDataSetTableAdapters.publisherTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FinalJournal.journalDataSetTableAdapters.publisher_domainTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FinalJournal.journalDataSetTableAdapters.sponsor_addressTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FinalJournal.journalDataSetTableAdapters.sponsoredTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FinalJournal.journalDataSetTableAdapters.sponsorsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FinalJournal.journalDataSetTableAdapters.writesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:FinalJournal.journalDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(FinalJournal.journalDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:FinalJournal.journalDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(FinalJournal.journalDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:FinalJournal.journalDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(FinalJournal.journalDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:FinalJournal.journalDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:FinalJournal.journalDataSetTableAdapters.TableAdapterManager.UpdateAll(FinalJournal.journalDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:FinalJournal.journalDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:FinalJournal.journalDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:FinalJournal.journalDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:FinalJournal.loginDataSet1.login_tableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.loginDataSet1.login_tableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.loginDataSet1.login_tableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.loginDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:FinalJournal.loginDataSet1TableAdapters.login_tableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:FinalJournal.loginDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(FinalJournal.loginDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:FinalJournal.loginDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(FinalJournal.loginDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:FinalJournal.loginDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(FinalJournal.loginDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:FinalJournal.loginDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:FinalJournal.loginDataSet1TableAdapters.TableAdapterManager.UpdateAll(FinalJournal.loginDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:FinalJournal.loginDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:FinalJournal.loginDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:FinalJournal.loginDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:FinalJournal.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:FinalJournal.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:FinalJournal.My.Resources.Resources.PIC">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FinalJournal.My.Resources.Resources.PIC1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FinalJournal.My.Resources.Resources.PIC2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FinalJournal.My.Resources.Resources.Plain_Wallpapers_HD_A25">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FinalJournal.My.Resources.Resources.Plain_Wallpapers_HD_A251">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FinalJournal.My.Resources.Resources.Plain_Wallpapers_HD_A252">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:FinalJournal.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.AuthorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.JournalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.Journal_DisciplinesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.JMDataSet._Journal_ArticlesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.JMDataSet._Journal_Citations_ReportDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.PublisherDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.Publisher_DomainsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.SponsoredDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.Sponsorer_LocationsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.SponsorersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.WritesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.AuthorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.JournalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.Journal_DisciplinesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.JMDataSet._Journal_ArticlesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.JMDataSet._Journal_Citations_ReportRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.PublisherRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.Publisher_DomainsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.SponsoredRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.Sponsorer_LocationsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.SponsorersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.WritesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.AuthorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.JournalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.Journal_DisciplinesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.JMDataSet._Journal_ArticlesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.JMDataSet._Journal_Citations_ReportRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.PublisherRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.Publisher_DomainsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.SponsoredRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.Sponsorer_LocationsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.SponsorersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.JMDataSet.WritesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.JMDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:FinalJournal.JMDataSetTableAdapters.AuthorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FinalJournal.JMDataSetTableAdapters.JournalTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FinalJournal.JMDataSetTableAdapters.Journal_DisciplinesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FinalJournal.JMDataSetTableAdapters.Journal_ArticlesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FinalJournal.JMDataSetTableAdapters.Journal_Citations_ReportTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FinalJournal.JMDataSetTableAdapters.PublisherTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FinalJournal.JMDataSetTableAdapters.Publisher_DomainsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FinalJournal.JMDataSetTableAdapters.SponsoredTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FinalJournal.JMDataSetTableAdapters.Sponsorer_LocationsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FinalJournal.JMDataSetTableAdapters.SponsorersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FinalJournal.JMDataSetTableAdapters.WritesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:FinalJournal.JMDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(FinalJournal.JMDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:FinalJournal.JMDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(FinalJournal.JMDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:FinalJournal.JMDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(FinalJournal.JMDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:FinalJournal.JMDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:FinalJournal.JMDataSetTableAdapters.TableAdapterManager.UpdateAll(FinalJournal.JMDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:FinalJournal.JMDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:FinalJournal.JMDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:FinalJournal.JMDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:FinalJournal.SuperUserDataSet.SUUSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.SuperUserDataSet.SUUSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.SuperUserDataSet.SUUSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.SuperUserDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:FinalJournal.SuperUserDataSetTableAdapters.SUUSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:FinalJournal.SuperUserDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(FinalJournal.SuperUserDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:FinalJournal.SuperUserDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(FinalJournal.SuperUserDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:FinalJournal.SuperUserDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(FinalJournal.SuperUserDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:FinalJournal.SuperUserDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:FinalJournal.SuperUserDataSetTableAdapters.TableAdapterManager.UpdateAll(FinalJournal.SuperUserDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:FinalJournal.SuperUserDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:FinalJournal.SuperUserDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:FinalJournal.SuperUserDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:FinalJournal.LogDataSet.Table1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.LogDataSet.Table1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.LogDataSet.Table1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.LogDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:FinalJournal.LogDataSetTableAdapters.Table1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:FinalJournal.LogDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(FinalJournal.LogDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:FinalJournal.LogDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(FinalJournal.LogDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:FinalJournal.LogDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(FinalJournal.LogDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:FinalJournal.LogDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:FinalJournal.LogDataSetTableAdapters.TableAdapterManager.UpdateAll(FinalJournal.LogDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:FinalJournal.LogDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:FinalJournal.LogDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:FinalJournal.LogDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:FinalJournal.LoginDataSet.Login1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.LoginDataSet.Login1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.LoginDataSet.Login1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.LoginDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:FinalJournal.LoginDataSetTableAdapters.Login1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:FinalJournal.LoginDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(FinalJournal.LoginDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:FinalJournal.LoginDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(FinalJournal.LoginDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:FinalJournal.LoginDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(FinalJournal.LoginDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:FinalJournal.LoginDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:FinalJournal.LoginDataSetTableAdapters.TableAdapterManager.UpdateAll(FinalJournal.LoginDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:FinalJournal.LoginDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:FinalJournal.LoginDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:FinalJournal.LoginDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:FinalJournal.JournalDB1DataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:FinalJournal.Data.Table1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.Data.Table1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.Data.Table1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.Data">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:FinalJournal.DataTableAdapters.Table1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:FinalJournal.DataTableAdapters.TableAdapterManager.UpdateUpdatedRows(FinalJournal.Data,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:FinalJournal.DataTableAdapters.TableAdapterManager.UpdateInsertedRows(FinalJournal.Data,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:FinalJournal.DataTableAdapters.TableAdapterManager.UpdateDeletedRows(FinalJournal.Data,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:FinalJournal.DataTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:FinalJournal.DataTableAdapters.TableAdapterManager.UpdateAll(FinalJournal.Data)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:FinalJournal.DataTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:FinalJournal.DataTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:FinalJournal.DataTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:FinalJournal.journal12DataSet.TabDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalJournal.journal12DataSet.TabRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalJournal.journal12DataSet.TabRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalJournal.journal12DataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:FinalJournal.journal12DataSetTableAdapters.TabTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:FinalJournal.journal12DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(FinalJournal.journal12DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:FinalJournal.journal12DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(FinalJournal.journal12DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:FinalJournal.journal12DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(FinalJournal.journal12DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:FinalJournal.journal12DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:FinalJournal.journal12DataSetTableAdapters.TableAdapterManager.UpdateAll(FinalJournal.journal12DataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:FinalJournal.journal12DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:FinalJournal.journal12DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:FinalJournal.journal12DataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

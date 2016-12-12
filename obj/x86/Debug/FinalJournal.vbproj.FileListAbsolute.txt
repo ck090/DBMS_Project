@@ -1,0 +1,49 @@
+C:\Users\N Chandra Kanth\Documents\Visual Studio 2010\Projects\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.Addnewuser.resources
+C:\Users\N Chandra Kanth\Documents\Visual Studio 2010\Projects\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.EnterPass.resources
+C:\Users\N Chandra Kanth\Documents\Visual Studio 2010\Projects\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.Form2.resources
+C:\Users\N Chandra Kanth\Documents\Visual Studio 2010\Projects\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.Login.resources
+C:\Users\N Chandra Kanth\Documents\Visual Studio 2010\Projects\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.Resources.resources
+C:\Users\N Chandra Kanth\Documents\Visual Studio 2010\Projects\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.SuperUser.resources
+C:\Users\N Chandra Kanth\Documents\Visual Studio 2010\Projects\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.vbproj.GenerateResource.Cache
+C:\Users\N Chandra Kanth\Documents\Visual Studio 2010\Projects\FinalJournal\FinalJournal\bin\Debug\journal12.mdb
+C:\Users\N Chandra Kanth\Documents\Visual Studio 2010\Projects\FinalJournal\FinalJournal\bin\Debug\JournalDB1.mdb
+C:\Users\N Chandra Kanth\Documents\Visual Studio 2010\Projects\FinalJournal\FinalJournal\bin\Debug\Login.mdb
+C:\Users\N Chandra Kanth\Documents\Visual Studio 2010\Projects\FinalJournal\FinalJournal\bin\Debug\SuperUser.mdb
+C:\Users\N Chandra Kanth\Documents\Visual Studio 2010\Projects\FinalJournal\FinalJournal\bin\Debug\FinalJournal.exe.config
+C:\Users\N Chandra Kanth\Documents\Visual Studio 2010\Projects\FinalJournal\FinalJournal\bin\Debug\FinalJournal.exe
+C:\Users\N Chandra Kanth\Documents\Visual Studio 2010\Projects\FinalJournal\FinalJournal\bin\Debug\FinalJournal.pdb
+C:\Users\N Chandra Kanth\Documents\Visual Studio 2010\Projects\FinalJournal\FinalJournal\bin\Debug\FinalJournal.xml
+C:\Users\N Chandra Kanth\Documents\Visual Studio 2010\Projects\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.exe
+C:\Users\N Chandra Kanth\Documents\Visual Studio 2010\Projects\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.xml
+C:\Users\N Chandra Kanth\Documents\Visual Studio 2010\Projects\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.pdb
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\bin\Debug\FinalJournal.exe.config
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\bin\Debug\journal12.mdb
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\bin\Debug\JournalDB1.mdb
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\bin\Debug\Login.mdb
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\bin\Debug\SuperUser.mdb
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\bin\Debug\FinalJournal.exe
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\bin\Debug\FinalJournal.pdb
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\bin\Debug\FinalJournal.xml
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.Addnewuser.resources
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.Charts.resources
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.Form2.resources
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.Login.resources
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.Main_Page.resources
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.Resources.resources
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.Publishers.resources
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.SuperUser.resources
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.SuperUserUpdate.resources
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.vbproj.GenerateResource.Cache
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.exe
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.xml
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.pdb
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.Mainlogin.resources
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.EnterPass.resources
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.journalsearch.resources
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.authorsearch.resources
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.jarticlesearch.resources
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.citationsearch.resources
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.publishersearch.resources
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.adminform.resources
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.alltables_.resources
+C:\Users\N Chandra Kanth\Desktop\FinalJournal\FinalJournal\obj\x86\Debug\FinalJournal.chartssql.resources
